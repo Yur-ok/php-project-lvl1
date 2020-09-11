@@ -1,0 +1,10 @@
+{
+    "name": "yurok/brain-game",
+    "authors": [
+        {
+            "name": "Yuriy Bachevskiy",
+            "email": "Materik-r@yandex.ru"
+        }
+    ],
+    "require": {}
+}
