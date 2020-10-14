@@ -9,7 +9,7 @@ function run()
 {
 line('Welcome to the Brain Game!');
 $name = prompt('May I have you name?');
-line("hello, %s!", $name);
+line("Hello, %s!", $name);
 
 return;
 }
