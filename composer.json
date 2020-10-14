@@ -1,10 +1,13 @@
 {
-    "name": "hexlet/code",
-    "authors": [
-        {
-            "name": "Yuriy Bachevskiy",
-            "email": "Materik-r@yandex.ru"
-        }
-    ],
-    "require": {}
+	"name": "hexlet/code",
+	"authors": [
+		{
+			"name": "Yuriy Bachevskiy",
+			"email": "Materik-r@yandex.ru"
+		}
+	 ],
+	"require": {},
+	"bin": [
+		"bin/brain-games"
+	]
 }
