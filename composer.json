@@ -6,6 +6,8 @@
 			"email": "Materik-r@yandex.ru"
 		}
 	 ],
+	"description": "First project on Hexlet",
+	"license": "MIT",
 	"require": {},
 	"bin": [
 		"bin/brain-games"
