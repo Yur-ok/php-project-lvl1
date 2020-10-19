@@ -6,3 +6,6 @@
 
 ### It's demo of how to run calc-check game.
 [![asciicast](https://asciinema.org/a/USzmFfpAjm597WZxlXJLjIi1P.svg)](https://asciinema.org/a/USzmFfpAjm597WZxlXJLjIi1P)
+
+### It's deom of third gcd-game.
+[![asciicast](https://asciinema.org/a/Nu00x1sKYUwEq5fo4SgoYa93B.svg)](https://asciinema.org/a/Nu00x1sKYUwEq5fo4SgoYa93B)
