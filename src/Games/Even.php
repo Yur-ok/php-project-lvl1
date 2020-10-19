@@ -13,5 +13,11 @@ function run()
 
 function getEvenData()
 {
-    return rand(1, 100);
+    $result = [];
+    $question = rand(1, 100);
+    $result[] = $question;
+    $answer = $question % 2 === 0 ? 'yes' : 'no';
+    $result[] = $answer;
+
+    return $result;
 }
