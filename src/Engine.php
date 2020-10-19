@@ -6,12 +6,12 @@ use function cli\line;
 use function cli\prompt;
 use function Brain\Games\Games\Calc\getCalcData;
 use function Brain\Games\Games\Even\getEvenData;
+use function Brain\Games\Games\Gcd\getGcdData;
 
 function runGame(string $gameData, string $gameName)
 {
     $steps = 3;
     $rightCount = 0;
-    $correctAnswer = '';
 
     line('Welcome to the Brain Game!');
     $name = prompt('May I have you name?');
@@ -19,22 +19,24 @@ function runGame(string $gameData, string $gameName)
     line($gameData);
 
     while ($steps > $rightCount) {
-        $gameTurn = $gameName === 'calc' ? getCalcData() : getEvenData();
-        line("Question: %s", $gameTurn);
-        $userAnswer = prompt("Your answer");
         switch ($gameName) {
-            case 'calc':
-                eval("\$correctAnswer = $gameTurn;");
-                break;
             case 'even':
-                $correctAnswer = $gameTurn % 2 === 0 ? 'yes' : 'no';
+                $gameTurn = getEvenData();
+                break;
+            case 'calc':
+                $gameTurn = getCalcData();
+                break;
+            case 'gcd':
+                $gameTurn = getGcdData();
                 break;
         }
-        if ($userAnswer == $correctAnswer) {
+        line("Question: %s", $gameTurn[0]);
+        $userAnswer = prompt("Your answer");
+        if ($userAnswer == $gameTurn[1]) {
             line('Correct!');
             $rightCount++;
         } else {
-            line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$correctAnswer}'.");
+            line("'{$userAnswer}' is wrong answer ;(. Correct answer was '{$gameTurn[1]}'.");
             line("Let's try again %s!", $name);
             $rightCount = 0;
         }
