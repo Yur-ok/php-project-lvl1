@@ -8,6 +8,7 @@ use function Brain\Games\Games\Calc\getCalcData;
 use function Brain\Games\Games\Even\getEvenData;
 use function Brain\Games\Games\Gcd\getGcdData;
 use function Brain\Games\Games\Progression\getProgressionData;
+use function Brain\Games\Games\Prime\getPrimeData;
 
 function runGame(string $gameData, string $gameName)
 {
@@ -32,6 +33,9 @@ function runGame(string $gameData, string $gameName)
                 break;
             case 'progression':
                 $gameTurn = getProgressionData();
+                break;
+            case 'prime':
+                $gameTurn = getPrimeData();
                 break;
         }
         line("Question: %s", $gameTurn[0]);
