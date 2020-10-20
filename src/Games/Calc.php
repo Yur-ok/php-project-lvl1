@@ -27,4 +27,3 @@ function getCalcData()
 
     return $result;
 }
-
