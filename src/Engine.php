@@ -1,12 +1,13 @@
 <?php
 
-namespace Brain\Games\Games\Engine;
+namespace Brain\Games\Engine;
 
 use function cli\line;
 use function cli\prompt;
 use function Brain\Games\Games\Calc\getCalcData;
 use function Brain\Games\Games\Even\getEvenData;
 use function Brain\Games\Games\Gcd\getGcdData;
+use function Brain\Games\Games\Progression\getProgressionData;
 
 function runGame(string $gameData, string $gameName)
 {
@@ -28,6 +29,9 @@ function runGame(string $gameData, string $gameName)
                 break;
             case 'gcd':
                 $gameTurn = getGcdData();
+                break;
+            case 'progression':
+                $gameTurn = getProgressionData();
                 break;
         }
         line("Question: %s", $gameTurn[0]);
