@@ -2,7 +2,7 @@
 
 namespace Brain\Games\Games\Gcd;
 
-use function Brain\Games\Games\Engine\runGame;
+use function Brain\Games\Engine\runGame;
 
 function run()
 {

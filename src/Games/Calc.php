@@ -2,7 +2,7 @@
 
 namespace Brain\Games\Games\Calc;
 
-use function Brain\Games\Games\Engine\runGame;
+use function Brain\Games\Engine\runGame;
 
 define('OPERATIONS', ['+', '-', '*']);
 
