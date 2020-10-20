@@ -12,3 +12,6 @@
 
 ### It's demo of fourth progression-game.
 [![asciicast](https://asciinema.org/a/9TfAaklHmYfEeZSgNh09qv20f.svg)](https://asciinema.org/a/9TfAaklHmYfEeZSgNh09qv20f)
+
+### It's demo of fifth and final prime-game.
+[![asciicast](https://asciinema.org/a/WzbES6iSaWM6NyYeyxNdmrmKX.svg)](https://asciinema.org/a/WzbES6iSaWM6NyYeyxNdmrmKX)
