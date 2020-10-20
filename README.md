@@ -9,3 +9,6 @@
 
 ### It's demo of third gcd-game.
 [![asciicast](https://asciinema.org/a/Nu00x1sKYUwEq5fo4SgoYa93B.svg)](https://asciinema.org/a/Nu00x1sKYUwEq5fo4SgoYa93B)
+
+### It's demo of fourth progression-game.
+[![asciicast](https://asciinema.org/a/9TfAaklHmYfEeZSgNh09qv20f.svg)](https://asciinema.org/a/9TfAaklHmYfEeZSgNh09qv20f)
