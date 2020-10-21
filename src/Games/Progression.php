@@ -17,7 +17,6 @@ function getProgressionData()
     $hiddenNumber = rand(1, $length);
     $startFrom = rand(1, 90);
     $progDiff = rand(1, 7);
-    $answer = '';
     $question = [$startFrom + $progDiff];
 
     for ($i = 0; $i < $length; $i++) {

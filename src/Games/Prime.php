@@ -15,7 +15,6 @@ function getPrimeData()
 {
     $a = rand(1, 100);
     $question = $a;
-    $answer = '';
     $count = 0;
 
     foreach (range(1, $a) as $number) {

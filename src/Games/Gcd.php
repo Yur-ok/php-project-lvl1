@@ -19,13 +19,10 @@ function getGcdData()
     $bDividers = divisionFinder($b);
     $gcd = array_intersect($aDividers, $bDividers);
     sort($gcd);
-    $result = [];
     $question = "$a $b";
-    $result[] = $question;
     $answer = $gcd[count($gcd) - 1];
-    $result[] = $answer;
 
-    return $result;
+    return [$question, $answer];
 }
 
 function divisionFinder(int $a)
